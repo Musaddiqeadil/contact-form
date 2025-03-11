@@ -32,7 +32,7 @@ const App: React.FC = () => {
       alert(' Error ! All fields are required!');
     } else {
       try {
-        await axios.post('http://localhost:1000/api/v1/post', value);
+        await axios.post('https://contact-form-4-cm3a.onrender.com', value);
         console.log('Data saved successfully');
         alert('Data saved successfully');
         setvalue({
